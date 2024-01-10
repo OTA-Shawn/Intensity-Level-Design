@@ -6,12 +6,12 @@
 <div class="flex flex-col gap-4 justify-between w-64 mb-10">
 	<label for="" class="flex justify-between">
 		min-Intensity
-		<input type="number" class="border" bind:value={minIntensity} />
+		<input type="number" class="border" bind:value={minIntensity} min="1" />
 	</label>
 
 	<label for="" class="flex justify-between">
 		max-Intensity
-		<input type="number" class="border" bind:value={maxIntensity} />
+		<input type="number" class="border" bind:value={maxIntensity} max="10" />
 	</label>
 </div>
 <div class="w-96">
